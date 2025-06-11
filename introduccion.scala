@@ -16,7 +16,7 @@ class Escribir(c: Char) extends Runnable { // extends Thread
   override def run =
     for (i<-0 until 10) print(c)
 }
-// HEBRA QUE SE QJECUTA AL LLAMARLA DANDOLE UN CUERPO -> body:=> Unit
+// HEBRA QUE SE QUE EJECUTA AL LLAMARLA DANDOLE UN CUERPO -> body:=> Unit
 def log(msg: String): Unit ={
   println(s"${Thread.currentThread().getName}: $msg")
 }
