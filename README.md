@@ -1,1 +1,1 @@
-que es un semáforo("println")
+que es un semáforo("System.out.println")
